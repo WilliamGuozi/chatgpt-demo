@@ -7,6 +7,6 @@ docker build -t chatgpt .
 
 
 ### run
-```buildoutcfg
+```bash
 docker run -d -e OPENAI_API_KEY="sk-xx" --network host chatgpt:latest 
 ```
