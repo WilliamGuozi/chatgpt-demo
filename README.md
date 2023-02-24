@@ -1,2 +1,12 @@
-# chatgpt-demo
-Testing the code writted by chatgpt
+
+### build
+
+```bash
+docker build -t chatgpt .
+```
+
+
+### run
+```buildoutcfg
+docker run -d --network host chatgpt:latest 
+```
